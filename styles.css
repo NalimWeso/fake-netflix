@@ -12,6 +12,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .series-details {
@@ -29,19 +35,19 @@ body {
     position: relative;
 }
 
-.img {
+.info-img {
     position: relative;
     width: 100%;
 }
 
-.img img {
+.info-img img {
     height: auto;
     width: 100%;
     border-radius: 10px 10px 0 0;
     display: block;
 }
 
-.img::before {
+.info-img::before {
     content: "";
     position: absolute;
     top: 0;
@@ -55,13 +61,19 @@ body {
 .close-button,
 .play-button,
 .watchlist-button,
-.like-button {
+.like-button,
+.play-episode-button {
     position: absolute;
 }
 
 .close-button {
-    top: 10px;
-    right: 20px;
+    top: 12px;
+    right: 12px;
+}
+
+.close-button svg {
+    background-color: white;
+    border-radius: 50px;
 }
 
 .play-button {
@@ -110,7 +122,7 @@ svg {
     cursor: pointer;
 }
 
-.title {
+.series-title {
     color: white;
     font-size: 40px;
     margin: 10px 15px;
@@ -190,4 +202,68 @@ svg {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin: 15px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px 15px 5px 47px;
+}
+
+.episodes-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.episode {
+    padding: 1px;
+    width: 45%;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.episode:hover {
+    background-color: #2F2F2F;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.episode-img {
+    margin: 4px;
+    height: 225px;
+    position: relative;
+}
+
+.episode-img img {
+    width: 100%;
+}
+
+.episode-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 0;
+    display: inline-block;
+}
+
+.episode-description {
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0 5px;
+}
+
+.play-episode-button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play-episode-button svg {
+    fill: white;
+    transition: transform 0.15s ease-in-out, fill 0.15s ease-in-out;
+}
+
+.play-episode-button svg:hover {
+    transform: scale(1.2);
+    fill: #E50914;
 }
