@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #040203;
+    background-color: #141414;
     color: white;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     font-size: 30px;
@@ -25,6 +25,8 @@ body {
 .basic-info {
     font-size: 18px;
     color: #BCBCBC;
+
+    position: relative;
 }
 
 img {
@@ -48,7 +50,7 @@ img {
     margin-right: 0.3em;
 }
 
-.details {
+.info-left {
     margin: 0 10px 10px 15px;
     display: inline-block;
 }
@@ -71,4 +73,37 @@ img {
     padding: 0.1em 0.3em;
     border: 1px solid #FFFFFF66;
     cursor: pointer;
+}
+
+.info-right {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    width: 250px;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre {
+    color: white;
+    white-space: nowrap;
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+.genre:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.description {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
 }
