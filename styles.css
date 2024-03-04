@@ -16,21 +16,22 @@ body {
 
 .series-details {
     background-color: #343434;
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
     width: 800px;
+    border-radius: 10px;
     cursor: default;
 }
 
 .basic-info {
-    font-size: 18px;
     color: #BCBCBC;
-
+    font-size: 18px;
     position: relative;
 }
 
 img {
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .title {
@@ -75,6 +76,12 @@ img {
     cursor: pointer;
 }
 
+.mature-content {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
 .info-right {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
@@ -105,5 +112,6 @@ img {
 .description {
     color: white;
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
     margin: 15px;
 }
