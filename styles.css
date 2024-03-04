@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #141414;
+    background-color: #000000F2;
     color: white;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     font-size: 30px;
@@ -15,7 +15,7 @@ body {
 }
 
 .series-details {
-    background-color: #343434;
+    background-color: #181818;
     margin: 20px 0;
     padding: 0;
     width: 800px;
@@ -29,9 +29,85 @@ body {
     position: relative;
 }
 
-img {
+.img {
+    position: relative;
+    width: 100%;
+}
+
+.img img {
+    height: auto;
     width: 100%;
     border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+.img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #181818, transparent 50%);
+    mix-blend-mode: multiply;
+}
+
+.close-button,
+.play-button,
+.watchlist-button,
+.like-button {
+    position: absolute;
+}
+
+.close-button {
+    top: 10px;
+    right: 20px;
+}
+
+.play-button {
+    background-color: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 7px 10px;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, color 0.3s ease-in-out;
+}
+
+.play-button:hover {
+    background-color: gainsboro;
+    color: #000000DC;
+}
+
+.watchlist-button {
+    bottom: 26px;
+    left: 114px;
+}
+
+.like-button {
+    bottom: 26px;
+    left: 155px;
+}
+
+.watchlist-button svg,
+.like-button svg {
+    background-color: #252525;
+    fill: #BABABA;
+    border-radius: 50px;
+    transition: fill 0.15s ease-in-out;
+}
+
+.watchlist-button svg:hover,
+.like-button svg:hover {
+    fill: white;
+}
+
+svg {
+    overflow: visible;
+    cursor: pointer;
 }
 
 .title {
