@@ -201,7 +201,7 @@ svg {
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    margin: 15px;
+    margin: 30px 15px;
 }
 
 p {
@@ -215,6 +215,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .episode {
@@ -225,17 +227,21 @@ p {
 
 .episode:hover {
     background-color: #2F2F2F;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: #00000059 0px 5px 15px;
 }
 
 .episode-img {
     margin: 4px;
-    height: 225px;
     position: relative;
 }
 
 .episode-img img {
     width: 100%;
+    cursor: pointer;
+}
+
+.episode-info {
+    margin: -20px 0 10px 0;
 }
 
 .episode-title {
