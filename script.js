@@ -104,4 +104,20 @@ document.querySelector('.watchlist-button').addEventListener('click', () => {
         document.querySelector('.watchlist-button').innerHTML = svgToAdd;
         svgWatchlist = false;
     }
+
+    void document.querySelector('.watchlist-button').offsetWidth;
+    button.classList.toggle('active');
+});
+
+let svgLike = false;
+
+document.querySelector('.like-button').addEventListener('click', () => {
+    if (svgLike === false) {
+        document.querySelector('.like-button svg').classList.add('checked');
+        svgLike = true;
+    }
+    else {
+        document.querySelector('.like-button svg').classList.remove('checked');
+        svgLike = false;
+    }
 });

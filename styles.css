@@ -100,12 +100,12 @@ body {
 }
 
 .watchlist-button {
-    bottom: 26px;
+    bottom: 25px;
     left: 120px;
 }
 
 .like-button {
-    bottom: 26px;
+    bottom: 25px;
     left: 166px;
 }
 
@@ -130,6 +130,15 @@ body {
 
 .watchlist-button .checked:hover {
     fill: #F7904B;
+}
+
+.like-button .checked {
+    fill: #46D36A;
+    transition: fill 0.15s ease-in-out;
+}
+
+.like-button .checked:hover {
+    fill: #7DE097;
 }
 
 svg {
