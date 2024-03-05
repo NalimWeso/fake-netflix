@@ -93,6 +93,10 @@ let svgToAdd = `
 </svg>
 `;
 
+document.querySelector('.close-button svg').addEventListener('click', () => {
+    document.querySelector('.series-details').innerHTML = '';
+});
+
 let svgWatchlist = false;
 
 document.querySelector('.watchlist-button').addEventListener('click', () => {
