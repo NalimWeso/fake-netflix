@@ -204,6 +204,55 @@ svg {
     margin: 30px 15px;
 }
 
+@media screen and (max-width: 580px) {
+    .info-left {
+        display: block;
+    }
+
+    .info-right {
+        margin: 10px 0 0 15px;
+        display: inline-block;
+        position: static;
+    }
+
+    .genres {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .description {
+        margin: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .info-right {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .match-score,
+    .year,
+    .duration,
+    .quality {
+        font-size: 14px;
+    }
+
+    .maturity-number {
+        font-size: 15px;
+    }
+
+    .mature-content {
+        font-size: 14px;
+    }
+
+    .info-right {
+        font-size: 12px;
+    }
+}
+
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
