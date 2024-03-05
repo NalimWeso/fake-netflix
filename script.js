@@ -96,13 +96,6 @@ let svgToAdd = `
 let svgWatchlist = false;
 
 document.querySelector('.watchlist-button').addEventListener('click', () => {
-
-    balls()
-
-
-});
-
-function balls() {
     if (svgWatchlist === false) {
         document.querySelector('.watchlist-button').innerHTML = svgNotToAdd;
         svgWatchlist = true;
@@ -111,6 +104,4 @@ function balls() {
         document.querySelector('.watchlist-button').innerHTML = svgToAdd;
         svgWatchlist = false;
     }
-
-    return svgWatchlist;
-}
+});
