@@ -245,18 +245,35 @@ p {
 }
 
 .episode-title {
-    font-size: 15px;
+    font-size: 1.8vw;
     font-weight: bold;
-    margin: 0 5px;
+    margin: 0 0.5vw;
     padding: 0;
     display: inline-block;
 }
 
 .episode-description {
-    font-size: 15px;
+    font-size: 1.8dvw;
     line-height: 1.4;
-    min-height: 110px;
-    margin: 0 5px;
+    min-height: 6.5vw;
+    margin: 0 0.5vw;
+}
+
+@media screen and (min-width: 830px) {
+    .episode-info {
+        margin: -20px 0 10px 0;
+    }
+
+    .episode-title {
+        font-size: 15px;
+        margin: 0 5px;
+    }
+
+    .episode-description {
+        font-size: 15px;
+        min-height: 110px;
+        margin: 0 5px;
+    }
 }
 
 .play-episode-button {

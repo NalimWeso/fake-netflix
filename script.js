@@ -19,7 +19,7 @@ const episodes = [
         id: 3,
         thumbnail: "video.jpg",
         title: "3. Breaking the Mold",
-        description: "Uncover the science behind washing machines and their role in maintaining cleanliness and hygiene. Learn about the battle against mold and mildew, and how modern innovations are tackling this age-old problem."
+        description: "Uncover the science behind washing machines and their role in maintaining cleanliness and hygiene. Learn about the battle against mold and mildew, and how modern innovations are tackling this problem."
     },
     {
         id: 4,
