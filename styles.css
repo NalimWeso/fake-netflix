@@ -22,10 +22,10 @@ body {
 
 .series-details {
     background-color: #181818;
-    margin: 20px 0;
+    margin: 0;
     padding: 0;
     width: 800px;
-    border-radius: 10px;
+    border-radius: 0;
     cursor: default;
 }
 
@@ -43,7 +43,7 @@ body {
 .info-img img {
     height: auto;
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0;
     display: block;
 }
 
@@ -208,7 +208,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 20px;
-    margin: 10px 15px 5px 47px;
+    margin: 10px 15px 5px 5.7vw;
 }
 
 .episodes-list {
@@ -241,7 +241,7 @@ p {
 }
 
 .episode-info {
-    margin: -20px 0 10px 0;
+    margin: -15px 0 10px 0;
 }
 
 .episode-title {
@@ -253,15 +253,23 @@ p {
 }
 
 .episode-description {
-    font-size: 1.8dvw;
+    font-size: 1.75vw;
     line-height: 1.4;
-    min-height: 6.5vw;
     margin: 0 0.5vw;
 }
 
-@media screen and (min-width: 830px) {
-    .episode-info {
-        margin: -20px 0 10px 0;
+@media screen and (min-width: 820px) {
+    .series-details {
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    .info-img img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    p {
+        margin-left: 47px;
     }
 
     .episode-title {
@@ -271,8 +279,39 @@ p {
 
     .episode-description {
         font-size: 15px;
-        min-height: 110px;
+        min-height: 20px;
         margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .episodes-list {
+        flex-direction: column;
+    }
+
+    .episode {
+        width: 90%;
+    }
+
+    .episode-info {
+        margin-top: -1rem;
+    }
+
+    .episode-title,
+    .episode-description {
+        font-size: 15px;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description {
+        font-size: 14px;
+    }
+
+    .episode-title,
+    .episode-description {
+        font-size: 12px;
     }
 }
 

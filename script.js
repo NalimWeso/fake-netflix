@@ -43,7 +43,7 @@ const episodes = [
         id: 7,
         thumbnail: "video.jpg",
         title: "7. Rinse, Spin, Refresh",
-        description: "Experience the satisfaction of a freshly laundered load as we dive into the final stages of the washing process. Discover the secrets to achieving the ultimate clean and refresh for your garments."
+        description: "Experience the satisfaction of a freshly laundered load as we delve into the final stages of the washing process. Discover the art of rinsing, the precision of spinning, and the revitalizing refreshment."
     },
     {
         id: 8,
