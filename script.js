@@ -104,9 +104,6 @@ document.querySelector('.watchlist-button').addEventListener('click', () => {
         document.querySelector('.watchlist-button').innerHTML = svgToAdd;
         svgWatchlist = false;
     }
-
-    void document.querySelector('.watchlist-button').offsetWidth;
-    button.classList.toggle('active');
 });
 
 let svgLike = false;
