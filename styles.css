@@ -146,6 +146,12 @@ svg {
     padding: 0;
 }
 
+@media screen and (max-width: 750px) {
+    .series-title {
+        font-size: 30px;
+    }
+}
+
 .match-score,
 .year,
 .duration,
