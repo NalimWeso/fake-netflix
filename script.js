@@ -59,7 +59,7 @@ episodes.forEach((episode) => {
     episodesHTML += `
     <div class="episode" id="${episode.id}">
         <div class="episode-img">
-            <img src="${episode.thumbnail}" alt="Thumbnail">
+            <img src="${episode.thumbnail}" alt="Thumbnail" draggable=false>
             <div class="play-episode-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24">
                     <path

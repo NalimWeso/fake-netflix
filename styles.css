@@ -40,6 +40,10 @@ body {
     width: 100%;
 }
 
+img {
+    pointer-events: none;
+}
+
 .info-img img {
     height: auto;
     width: 100%;
@@ -334,6 +338,7 @@ p {
 .episode-img img {
     width: 100%;
     cursor: pointer;
+    pointer-events: auto;
 }
 
 .episode-info {
