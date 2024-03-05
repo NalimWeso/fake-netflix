@@ -66,6 +66,11 @@ body {
     position: absolute;
 }
 
+.watchlist-button,
+.like-button {
+    pointer-events: none;
+}
+
 .close-button {
     top: 12px;
     right: 12px;
@@ -109,12 +114,22 @@ body {
     background-color: #252525;
     fill: #BABABA;
     border-radius: 50px;
+    pointer-events: auto;
     transition: fill 0.15s ease-in-out;
 }
 
 .watchlist-button svg:hover,
 .like-button svg:hover {
     fill: white;
+}
+
+.watchlist-button .checked {
+    fill: #E8630A;
+    transition: fill 0.15s ease-in-out;
+}
+
+.watchlist-button .checked:hover {
+    fill: #F7904B;
 }
 
 svg {
