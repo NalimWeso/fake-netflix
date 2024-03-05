@@ -7,49 +7,49 @@ const episodes = [
         id: 1,
         thumbnail: "video.jpg",
         title: "1. Our Great Washing Machines",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam, omnis eius possimus ipsum unde et aut, laudantium earum recusandae neque facilis! Facilis accusantium quasi officiis, ad asperiores fugiat totam."
+        description: " Join us as we delve into the fascinating history and evolution of washing machines. From hand-cranked contraptions to modern marvels, discover the innovations that revolutionized laundry day."
     },
     {
         id: 2,
         thumbnail: "video.jpg",
         title: "2. Wash Day Wonders",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi, sapiente rerum consectetur exercitationem voluptate asperiores culpa velit adipisci porro deleniti est? Iusto sint iste quis possimus quod rerum aperiam!"
+        description: "Explore the daily rituals and challenges of laundry day across different cultures and time periods. From ancient methods to cutting-edge technology, witness the enduring significance of this household chore."
     },
     {
         id: 3,
         thumbnail: "video.jpg",
         title: "3. Breaking the Mold",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum molestiae facere dignissimos recusandae eum, facilis quo quas, magnam accusantium, cupiditate quidem tenetur neque corporis! Amet voluptate laboriosam soluta dolorem?"
+        description: "Uncover the science behind washing machines and their role in maintaining cleanliness and hygiene. Learn about the battle against mold and mildew, and how modern innovations are tackling this age-old problem."
     },
     {
         id: 4,
         thumbnail: "video.jpg",
         title: "4. Behind Closed Doors",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel pariatur optio quo ullam, qui consequuntur cum sunt veniam ipsam numquam tempora nisi expedita autem doloribus suscipit ab similique exercitationem."
+        description: "Journey behind the scenes of the laundry room to uncover the secrets and surprises lurking within. From lost socks to unexpected discoveries, witness the drama and humor of everyday laundry life."
     },
     {
         id: 5,
         thumbnail: "video.jpg",
         title: "5. The Famous Spin Cycle",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, ut! Et ducimus blanditiis soluta fuga dolorum labore expedita ipsa esse porro quae in, deserunt consequuntur ipsum, aspernatur, saepe amet harum?"
+        description: "Step into the whirlwind world of the spin cycle, where clothes are tossed and tumbled to perfection. Explore the mechanics and magic behind this iconic stage of the washing process."
     },
     {
         id: 6,
         thumbnail: "video.jpg",
         title: "6. From Scrubbing to Spinning",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nihil cum alias asperiores repellat error ratione dolore quaerat maiores temporibus, nostrum ipsa, officia corrupti dolor officiis aut consectetur inventore! Dolor?"
+        description: "Trace the evolution of laundry techniques from manual scrubbing to automated spinning. Follow the journey of labor-saving devices and their impact on households throughout history."
     },
     {
         id: 7,
         thumbnail: "video.jpg",
         title: "7. Rinse, Spin, Refresh",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iste dolores fuga laudantium, at repellendus repellat est, iusto impedit sint obcaecati saepe incidunt autem deserunt blanditiis temporibus delectus mollitia repudiandae!"
+        description: "Experience the satisfaction of a freshly laundered load as we dive into the final stages of the washing process. Discover the secrets to achieving the ultimate clean and refresh for your garments."
     },
     {
         id: 8,
         thumbnail: "video.jpg",
         title: "8. Wash and Learn",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro repellat impedit qui molestiae eveniet eius neque adipisci est labore error fugit, cumque assumenda expedita iste quo, similique dignissimos unde."
+        description: "Conclude our journey with valuable gained from the world of washing machines. From sustainability tips to laundry hacks, empower yourself with knowledge to conquer laundry day with ease."
     }
 ];
 
