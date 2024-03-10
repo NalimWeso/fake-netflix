@@ -103,6 +103,10 @@ img {
     color: #000000DC;
 }
 
+.play-button:active {
+    background-color: #AEAEAE;
+}
+
 .watchlist-button {
     bottom: 25px;
     left: 120px;
