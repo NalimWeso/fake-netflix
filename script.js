@@ -7,13 +7,13 @@ const episodes = [
         id: 1,
         thumbnail: "episode-1.jpg",
         title: "1. Our Great Washing Machines",
-        description: " Join us as we delve into the fascinating history and evolution of washing machines. From hand-cranked contraptions to modern marvels, discover the innovations that revolutionized laundry day."
+        description: "Join us as we delve into the fascinating history and evolution of washing machines. From hand-cranked contraptions to modern marvels, discover the innovations that revolutionized laundry day."
     },
     {
         id: 2,
         thumbnail: "episode-2.jpg",
         title: "2. Wash Day Wonders",
-        description: "Explore the daily rituals and challenges of laundry day across different cultures and time periods. From ancient methods to cutting-edge technology, witness the enduring significance of this household chore."
+        description: "Explore the daily rituals and challenges of laundry day across different cultures and time periods. Out of ancient methods to cutting-edge technology, witness the enduring significance of this household chore."
     },
     {
         id: 3,
