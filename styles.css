@@ -435,3 +435,7 @@ p {
     transform: scale(1.2);
     fill: #E50914;
 }
+
+.play-episode-button svg:active {
+    fill: #AC070f;
+}
