@@ -48,7 +48,6 @@ img {
   border-radius: 0;
   display: block;
 }
-
 .info-img::before {
   content: "";
   position: absolute;
@@ -77,7 +76,6 @@ img {
   top: 12px;
   right: 12px;
 }
-
 .close-button svg {
   background-color: white;
   border-radius: 50px;
@@ -95,12 +93,10 @@ img {
   cursor: pointer;
   transition: background-color 0.15s ease-in-out, color 0.3s ease-in-out;
 }
-
 .play-button:hover {
   background-color: gainsboro;
   color: rgba(0, 0, 0, 0.862745098);
 }
-
 .play-button:active {
   background-color: #AEAEAE;
 }
@@ -109,13 +105,28 @@ img {
   bottom: 25px;
   left: 120px;
 }
+.watchlist-button svg {
+  background-color: #252525;
+  fill: #BABABA;
+  border-radius: 50px;
+  pointer-events: auto;
+  transition: fill 0.15s ease-in-out;
+}
+.watchlist-button svg:hover {
+  fill: white;
+}
+.watchlist-button .checked {
+  fill: #E8630A;
+  transition: fill 0.15s ease-in-out;
+}
+.watchlist-button .checked:hover {
+  fill: #F7904B;
+}
 
 .like-button {
   bottom: 25px;
   left: 166px;
 }
-
-.watchlist-button svg,
 .like-button svg {
   background-color: #252525;
   fill: #BABABA;
@@ -123,26 +134,13 @@ img {
   pointer-events: auto;
   transition: fill 0.15s ease-in-out;
 }
-
-.watchlist-button svg:hover,
 .like-button svg:hover {
   fill: white;
 }
-
-.watchlist-button .checked {
-  fill: #E8630A;
-  transition: fill 0.15s ease-in-out;
-}
-
-.watchlist-button .checked:hover {
-  fill: #F7904B;
-}
-
 .like-button .checked {
   fill: #46D36A;
   transition: fill 0.15s ease-in-out;
 }
-
 .like-button .checked:hover {
   fill: #7DE097;
 }
@@ -240,7 +238,6 @@ svg {
   margin-right: 4px;
   font-weight: bold;
 }
-
 .genre:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -312,7 +309,6 @@ p {
   width: 45%;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-
 .episode:hover {
   background-color: #2F2F2F;
   box-shadow: rgba(0, 0, 0, 0.3450980392) 0px 5px 15px;
@@ -322,7 +318,6 @@ p {
   margin: 4px;
   position: relative;
 }
-
 .episode-img img {
   width: 100%;
   cursor: pointer;
@@ -398,17 +393,14 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .play-episode-button svg {
   fill: white;
   transition: transform 0.15s ease-in-out, fill 0.15s ease-in-out;
 }
-
 .play-episode-button svg:hover {
   transform: scale(1.2);
   fill: #E50914;
 }
-
 .play-episode-button svg:active {
   fill: #AC070F;
 }/*# sourceMappingURL=styles.css.map */
