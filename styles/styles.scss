@@ -1,10 +1,29 @@
+$bgdWebColor: #000000F2;
+$bgdSeriesDetails: #181818;
+$basicInfo: #BCBCBC;
+$classicWhite: white;
+$playBtnHover: gainsboro;
+$playBtnActive: #AEAEAE;
+$bgdSvg: #252525;
+$fillSvg: #BABABA;
+$plainOrange: #E8630A;
+$plainOrangeHover: #F7904B;
+$plainGreen: #46D36A;
+$plainGreenHover: #7DE097;
+$quality: #FFFFFFE6;
+$infoBorder: #FFFFFF66;
+$epHoberBgd: #2F2F2F;
+$epBoxShadow: #00000058;
+$playEpBtn: #E50914;
+$playEpBtnHover: #AC070F;
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #000000F2;
-    color: white;
+    background-color: $bgdWebColor;
+    color: $classicWhite;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     font-size: 30px;
     margin: 0;
@@ -21,7 +40,7 @@ body {
 }
 
 .series-details {
-    background-color: #181818;
+    background-color: $bgdSeriesDetails;
     margin: 0;
     padding: 0;
     width: 800px;
@@ -30,7 +49,7 @@ body {
 }
 
 .basic-info {
-    color: #BCBCBC;
+    color: $basicInfo;
     font-size: 18px;
     position: relative;
 }
@@ -58,7 +77,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #181818, transparent 50%);
+    background: linear-gradient(0deg, $bgdSeriesDetails, transparent 50%);
     mix-blend-mode: multiply;
 }
 
@@ -81,12 +100,12 @@ img {
 }
 
 .close-button svg {
-    background-color: white;
+    background-color: $classicWhite;
     border-radius: 50px;
 }
 
 .play-button {
-    background-color: white;
+    background-color: $classicWhite;
     color: black;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -99,12 +118,12 @@ img {
 }
 
 .play-button:hover {
-    background-color: gainsboro;
+    background-color: $playBtnHover;
     color: #000000DC;
 }
 
 .play-button:active {
-    background-color: #AEAEAE;
+    background-color: $playBtnActive;
 }
 
 .watchlist-button {
@@ -119,8 +138,8 @@ img {
 
 .watchlist-button svg,
 .like-button svg {
-    background-color: #252525;
-    fill: #BABABA;
+    background-color: $bgdSvg;
+    fill: $fillSvg;
     border-radius: 50px;
     pointer-events: auto;
     transition: fill 0.15s ease-in-out;
@@ -128,25 +147,25 @@ img {
 
 .watchlist-button svg:hover,
 .like-button svg:hover {
-    fill: white;
+    fill: $classicWhite;
 }
 
 .watchlist-button .checked {
-    fill: #E8630A;
+    fill: $plainOrange;
     transition: fill 0.15s ease-in-out;
 }
 
 .watchlist-button .checked:hover {
-    fill: #F7904B;
+    fill: $plainOrangeHover;
 }
 
 .like-button .checked {
-    fill: #46D36A;
+    fill: $plainGreen;
     transition: fill 0.15s ease-in-out;
 }
 
 .like-button .checked:hover {
-    fill: #7DE097;
+    fill: $plainGreenHover;
 }
 
 svg {
@@ -172,7 +191,7 @@ svg {
 }
 
 .series-title {
-    color: white;
+    color: $classicWhite;
     font-size: 40px;
     margin: 10px 15px;
     padding: 0;
@@ -200,27 +219,27 @@ svg {
 }
 
 .match-score {
-    color: #46D36A;
+    color: $plainGreen;
     font-weight: bold;
 }
 
 .quality {
-    color: #FFFFFFE6;
-    border: 1px solid #FFFFFF66;
+    color: $quality;
+    border: 1px solid $infoBorder;
     border-radius: 3px;
     padding: 0 0.5em;
 }
 
 .maturity-number {
-    color: white;
+    color: $classicWhite;
     margin-top: 0.4em;
     padding: 0.1em 0.3em;
-    border: 1px solid #FFFFFF66;
+    border: 1px solid $infoBorder;
     cursor: pointer;
 }
 
 .mature-content {
-    color: white;
+    color: $classicWhite;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
@@ -241,7 +260,7 @@ svg {
 }
 
 .genre {
-    color: white;
+    color: $classicWhite;
     white-space: nowrap;
     margin-right: 4px;
     font-weight: bold;
@@ -253,7 +272,7 @@ svg {
 }
 
 .description {
-    color: white;
+    color: $classicWhite;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin: 30px 15px;
@@ -330,8 +349,8 @@ p {
 }
 
 .episode:hover {
-    background-color: #2F2F2F;
-    box-shadow: #00000059 0px 5px 15px;
+    background-color: $epHoberBgd;
+    box-shadow: $epBoxShadow 0px 5px 15px;
 }
 
 .episode-img {
@@ -427,15 +446,15 @@ p {
 }
 
 .play-episode-button svg {
-    fill: white;
+    fill: $classicWhite;
     transition: transform 0.15s ease-in-out, fill 0.15s ease-in-out;
 }
 
 .play-episode-button svg:hover {
     transform: scale(1.2);
-    fill: #E50914;
+    fill: $playEpBtn;
 }
 
 .play-episode-button svg:active {
-    fill: #AC070f;
+    fill: $playEpBtnHover;
 }

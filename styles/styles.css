@@ -315,7 +315,7 @@ p {
 
 .episode:hover {
   background-color: #2F2F2F;
-  box-shadow: rgba(0, 0, 0, 0.3490196078) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.3450980392) 0px 5px 15px;
 }
 
 .episode-img {
@@ -410,5 +410,5 @@ p {
 }
 
 .play-episode-button svg:active {
-  fill: #AC070f;
+  fill: #AC070F;
 }/*# sourceMappingURL=styles.css.map */
