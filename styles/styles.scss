@@ -68,10 +68,14 @@ img {
     }
 }
 
+@mixin fontFamily() {
+    font-family: "Roboto", sans-serif;
+}
+
 .play-button {
     background-color: $classicWhite;
     color: black;
-    font-family: "Roboto", sans-serif;
+    @include fontFamily();
     font-weight: bold;
     padding: 7px 10px;
     bottom: 30px;
@@ -196,12 +200,12 @@ svg {
 
 .mature-content {
     color: $classicWhite;
-    font-family: "Roboto", sans-serif;
+    @include fontFamily();
     font-size: 16px;
 }
 
 .info-right {
-    font-family: "Roboto", sans-serif;
+    @include fontFamily();
     font-size: 17px;
     width: 250px;
     margin: 0;
@@ -229,7 +233,7 @@ svg {
 
 .description {
     color: $classicWhite;
-    font-family: "Roboto", sans-serif;
+    @include fontFamily();
     font-size: 16px;
     margin: 30px 15px;
 }
@@ -284,10 +288,10 @@ svg {
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    @include fontFamily();
     font-weight: 300;
     font-size: 20px;
-    margin: 10px 15px 5px 5.7vw;
+    margin: 10px 15px 5px 5.75vw;
 }
 
 .episodes-list {
